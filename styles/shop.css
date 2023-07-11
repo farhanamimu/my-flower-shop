@@ -122,42 +122,96 @@
     width: 1400px;
     height: 320px;
     justify-content: space-around;
+    padding: 10px 240px 20px;
     align-items: center;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 240px;
 }
 
-.fourth-container {
-    width: 19oopx;
-    height: 620px;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
-    
+    .fourth-container {
+        width: 19oopx;
+        height: 620px;
+        border-radius: 8px;
+        background: rgba(229, 84, 115, 0.05);
 
-}
 
-.fourth {
-    display: flex;
-    justify-content: space-around;
-}
+    }
 
-.fourth-title {
-    color: #272727;
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 800;
-}
+    .fourth {
+        display: flex;
+        justify-content: space-around;
+    }
 
-.fourth-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
+    .fourth-title {
+        color: #272727;
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: 800;
+    }
 
-.png-8 {
-    width: 318px;
-    height: 420px;
-}
+    .fourth-description {
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .png-8 {
+        width: 318px;
+        height: 420px;
+    }
+
+    .sixth-container {
+        background-image: url("../Flower\ Asset/Rectangle 9.png");
+        width: 1440px;
+        height: 449px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .sixth-title {
+        color: #272727;
+        text-align: center;
+        font-family: Lato;
+        font-size: 40px;
+        font-weight: 800;
+        margin: auto;
+    }
+
+    .sixth-description {
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: auto;
+    }
+
+    .end-part {
+        width: 1440px;
+        height: 449px;
+        text-align: center;
+        background: #111010;
+
+    }
+
+    .end-title {
+        color: #E55473;
+        font-family: Lato;
+        font-size: 48px;
+        font-weight: 800;
+    }
+
+    .end-description {
+        color: rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
