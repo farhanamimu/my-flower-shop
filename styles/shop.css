@@ -56,48 +56,108 @@
 }
 
 .png-pic-1 {
-    height: 400px;
-    width: 300px;
-    padding: 100px 70px 0px 70px
+    height: 428x;
+    width: 310px;
+    padding: 110px 75px 0px 75px
 }
 
 .picture-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    height: 500px;
-    width: 38opx;
+    height: 530x;
+    width: 450px;
 }
 
 
 .png-pic-2 {
-    height: 350px;
-    width: 350px;
+    height: 370px;
+    width: 370px;
     padding: 100px 45px 50px 45px;
 }
 
 .picture-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    height: 500px;
-    width: 38opx;
+    height: 530px;
+    width: 450px;
 }
 
 .png-pic-3 {
     height: 470px;
-    width: 350px;
-    padding: 0px 70px 0px 70px;
+    width: 310px;
+    padding: 60px 75px 0px 75px;
 }
 
 .picture-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    height: 450px;
-    width: 38opx;
+    height: 530px;
+    width: 450px;
 }
-pic-menus{
+
+.pic-menus {
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: spac;
+}
+
+.line-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 32px
+}
+
+.second-container {
+    ;
+}
+
+.third-container {
+    display: flex;
+    width: 1400px;
+    height: 320px;
     justify-content: space-around;
-    padding: 10px 240px 20px;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 240px;
+}
+
+.fourth-container {
+    width: 19oopx;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+
+}
+
+.fourth {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fourth-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.fourth-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.png-8 {
+    width: 318px;
+    height: 420px;
 }
