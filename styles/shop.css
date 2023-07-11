@@ -37,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: o auto;
 }
 
 .second-heading {
@@ -58,13 +59,13 @@
 .png-pic-1 {
     height: 428x;
     width: 310px;
-    padding: 110px 75px 0px 75px
+    padding: 110px 75px 0px 75px;
 }
 
 .picture-1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    height: 530x;
+    height: 530px;
     width: 450px;
 }
 
@@ -99,7 +100,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: spac;
+    justify-content: space-around;
 }
 
 .line-title {
@@ -129,89 +130,122 @@
     margin: 240px;
 }
 
-    .fourth-container {
-        width: 19oopx;
-        height: 620px;
-        border-radius: 8px;
-        background: rgba(229, 84, 115, 0.05);
+.fourth-container {
+    width: 19oopx;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
 
 
-    }
+}
 
-    .fourth {
-        display: flex;
-        justify-content: space-around;
-    }
+.fourth {
+    display: flex;
+    justify-content: space-around;
+}
 
-    .fourth-title {
-        color: #272727;
-        font-family: Lato;
-        font-size: 40px;
-        font-weight: 800;
-    }
+.fourth-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
 
-    .fourth-description {
-        color: rgba(39, 39, 39, 0.60);
-        text-align: center;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-    }
+.fourth-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
-    .png-8 {
-        width: 318px;
-        height: 420px;
-    }
+.png-8 {
+    width: 318px;
+    height: 420px;
+}
 
-    .sixth-container {
-        background-image: url("../Flower\ Asset/Rectangle 9.png");
-        width: 1440px;
-        height: 449px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
+.fifth-title {
+    text-align: center;
+    margin: 50px;
+}
 
-    .sixth-title {
-        color: #272727;
-        text-align: center;
-        font-family: Lato;
-        font-size: 40px;
-        font-weight: 800;
-        margin: auto;
-    }
+.fifth-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
-    .sixth-description {
-        color: rgba(39, 39, 39, 0.60);
-        text-align: center;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-        margin: auto;
-    }
+.fifth-pic {
+    height: 350px;
+    width: 300px;
+}
 
-    .end-part {
-        width: 1440px;
-        height: 449px;
-        text-align: center;
-        background: #111010;
+.fifth-pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
 
-    }
+.fifth-container {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
 
-    .end-title {
-        color: #E55473;
-        font-family: Lato;
-        font-size: 48px;
-        font-weight: 800;
-    }
+.sixth-container {
+    background-image: url("../Flower\ Asset/Rectangle 9.png");
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
 
-    .end-description {
-        color: rgba(255, 255, 255, 0.90);
-        text-align: center;
-        font-family: Lato;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
-    }
+.sixth-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin: auto;
+}
+
+.sixth-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+}
+
+.end-part {
+    width: 1440px;
+    height: 449px;
+    text-align: center;
+    background: #111010;
+
+}
+
+.end-title {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.end-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
